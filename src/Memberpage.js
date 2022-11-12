@@ -105,8 +105,8 @@ function Tablerow({row,index,email,Decrementavailable,booklist,memberdet}){
                     if(btninfo=='Borrow'){
                       Decrementavailable(index,booklist)
                       navigate(`/memberpage/${email}`)
-                      
                       setBtninfo('Borrowed')
+                      memberdet.booksborrowed.push(booklist[index].title)
                     }
                 }}>{btninfo}</Button>
 
