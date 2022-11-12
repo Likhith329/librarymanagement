@@ -13,3 +13,12 @@
 .borrowbtn{
     font-size: 50px!important;
 }
+
+@media (max-width:450px){
+    .bormsg{
+        text-align: center;font-size: 30px;color: white;
+    }
+    .borrowbtn{
+        font-size: 25px!important;
+    }
+}
